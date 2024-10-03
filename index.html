@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+         height:100%;
+             width: 100%; 
+        }
+        .main{
+            display: grid;
+            gap: 10px;
+            grid-template-areas: 'area1 area2 area3'
+            'area1 area4 area5'
+            'area6 area4 area7';
+        }
+        .item1{
+            grid-area: area1;
+        }
+        .item2{
+            grid-area: area2;
+        }
+        .item3{
+            grid-area: area3;
+        }
+        .item4{
+            grid-area: area4;
+        }
+        .item5{
+            grid-area: area5;
+        }
+        .item6{
+            grid-area: area6;
+        }
+        .item7{
+            grid-area: area7;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="../../assests/bottle.jpg" alt="" class="item1">
+        <img src="../../assests/images.jpeg" alt="" class="item2">
+        <img src="../../assests/bottle.jpg" alt="" class="item3">
+        <img src="../../assests/bottle.jpg" alt="" class="item4">
+        <img src="../../assests/images.jpeg" alt="" class="item5">
+        <img src="../../assests/images.jpeg" alt="" class="item6">
+        <img src="../../assests/bottle.jpg" alt="" class="item7">
+    </div>
+</body>
+</html>
